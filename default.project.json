@@ -3,6 +3,12 @@
   "tree": {
     "$className": "DataModel",
 
+    "ReplicatedFirst": {
+      "RojoClientFirst": {
+          "$path": "src/1_clientFirst"
+      }
+    },
+
     "ReplicatedStorage": {
       "RojoShare": {
         "$path": "src/2_shared"
@@ -15,11 +21,6 @@
       }
     },
 
-    "ReplicatedFirst": {
-      "RojoClientFirst": {
-          "$path": "src/1_clientFirst"
-      }
-    },
     "ServerStorage": {
       "RojoServerStorage": {
           "$path": "src/4_serverStorage"
