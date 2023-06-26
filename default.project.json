@@ -4,22 +4,25 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
+      "RojoShare": {
+        "$path": "src/2_shared"
       }
     },
 
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+      "RojoServer": {
+        "$path": "src/3_server"
       }
-    },2
+    },
 
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+    "ReplicatedFirst": {
+      "RojoClientFirst": {
+          "$path": "src/1_clientFirst"
+      }
+    },
+    "ServerStorage": {
+      "RojoServerStorage": {
+          "$path": "src/4_serverStorage"
       }
     },
 

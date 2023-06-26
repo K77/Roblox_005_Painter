@@ -1,0 +1,14 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {"Name": "s2c_money_change","ClassName": "RemoteEvent"},
+        {"Name": "c2s_all_bag","ClassName": "RemoteFunction"},
+        {"Name": "c2s_get_duration_info","ClassName": "RemoteFunction"},
+        {"Name": "c2s_get_duration_reward","ClassName": "RemoteFunction"},
+        {"Name": "s2c_bag_change","ClassName": "RemoteEvent"},
+        {"Name": "c2c_bag_change","ClassName": "BindableEvent"},
+        {"Name": "c2s_touch_ring","ClassName": "RemoteEvent"},
+        {"Name": "gm_add_weapon","ClassName": "RemoteEvent"},
+        {"Name": "c2s_equip","ClassName": "RemoteEvent"}
+    ]
+  }
