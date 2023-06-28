@@ -13,7 +13,7 @@ end
 local RunService = game:GetService("RunService")
 RunService.Stepped:Connect(function()
 	if not module.Inited then return end
-
+	module.Process()
 end)
 
 module.Inited = true
